@@ -1,14 +1,8 @@
-let array1 = [1, 2, 3, 4, 5];
+let a = [100,101,102];
+let sum = 0;
 
-
-while (i = 1 + 2 + 3 + 4 + 5) {
-    console.log(i / 5);
-        break;   
+for (let i = 0; i < a.length; i++) {
+    sum = sum + a[i];
 }
-
-let array2 = [100, 101, 102, 103];
-
-while (i = 100 + 101 + 102 + 103) {
-    console.log(i / 4);
-        break;   
-}
+sum = sum / a.length;
+console.log(sum);
